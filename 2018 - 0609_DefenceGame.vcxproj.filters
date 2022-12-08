@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\WinBase%28베이스윈도우%29">
+      <UniqueIdentifier>{7c077ac7-0119-4e66-8212-1cdf95d9874c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object%28오브젝트%29">
+      <UniqueIdentifier>{13f822ea-c7b8-4ef5-9745-872b557c8de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object%28오브젝트%29\Player%28플레이어%29">
+      <UniqueIdentifier>{e87e3a9a-0602-4af0-b937-9f9470ab24e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object%28오브젝트%29\Monster%28몬스터%29">
+      <UniqueIdentifier>{81234e35-f842-42dd-98ca-c138cd42c90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object%28오브젝트%29\BaseClass%28부모클래스%29">
+      <UniqueIdentifier>{84e5ad33-b2bf-4468-b8d4-286d0a413410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object%28오브젝트%29\Bullet%28총알%29">
+      <UniqueIdentifier>{aa4f3058-3839-4057-bd61-d8e116d69167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DefenceGame%28게임메인%29">
+      <UniqueIdentifier>{17b96385-fa9d-4a78-951e-fe4dcb57b773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Object%28오브젝트%29\Bullet%28총알%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object%28오브젝트%29\Player%28플레이어%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Object%28오브젝트%29\Monster%28몬스터%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinBase.cpp">
+      <Filter>소스 파일\WinBase%28베이스윈도우%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DefenceGame.cpp">
+      <Filter>소스 파일\DefenceGame%28게임메인%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass.h">
+      <Filter>소스 파일\Object%28오브젝트%29\BaseClass%28부모클래스%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object%28오브젝트%29\Player%28플레이어%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Object%28오브젝트%29\Monster%28몬스터%29</Filter>
+    </ClInclude>
+    <ClInclude Include="WinBase.h">
+      <Filter>소스 파일\WinBase%28베이스윈도우%29</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenceGame.h">
+      <Filter>소스 파일\DefenceGame%28게임메인%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Object%28오브젝트%29\Bullet%28총알%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Marmi - one’s time away (  hiphop mix ).wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
